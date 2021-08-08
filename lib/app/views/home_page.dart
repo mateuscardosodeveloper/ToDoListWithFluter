@@ -1,7 +1,7 @@
-import 'package:app/main.dart';
-import 'package:app/views/add_todo_dialog.dart';
-import 'package:app/views/completed_list.dart';
-import 'package:app/views/todo_list_back.dart';
+import 'package:app/app/my_app.dart';
+import 'package:app/app/views/add_todo_dialog.dart';
+import 'package:app/app/views/completed_list.dart';
+import 'package:app/app/views/todo_list_back.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {

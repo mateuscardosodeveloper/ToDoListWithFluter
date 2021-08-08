@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:app/domain/entities/todo.dart';
-import 'package:app/database/todo_dao_implement.dart';
-import 'package:app/views/todo_all.dart';
+import 'package:app/app/database/todo_dao_implement.dart';
+import 'package:app/app/views/todo_all.dart';
 
-class TodoListBack extends StatelessWidget {
+class CompletedList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final provider = Provider.of<TodosProvider>(context);
-    final todos = provider.todos;
+    final todos = provider.todosCompleted;
 
     return todos.isEmpty
         ? Center(
             child: Text(
-              'No todos.',
+              'No completed tasks.',
               style: TextStyle(fontSize: 20),
             ),
           )

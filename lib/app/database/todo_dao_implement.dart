@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'package:app/domain/entities/todo.dart';
+import 'package:app/app/domain/entities/todo.dart';
 
 class TodosProvider extends ChangeNotifier {
   List<Todo> _todos = [

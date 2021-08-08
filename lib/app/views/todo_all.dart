@@ -1,10 +1,10 @@
-import 'package:app/utils.dart';
-import 'package:app/database/todo_dao_implement.dart';
-import 'package:app/views/edit_todo.dart';
+import 'package:app/app/utils.dart';
+import 'package:app/app/database/todo_dao_implement.dart';
+import 'package:app/app/views/edit_todo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:provider/provider.dart';
-import 'package:app/domain/entities/todo.dart';
+import 'package:app/app/domain/entities/todo.dart';
 
 class TodoAll extends StatelessWidget {
   final Todo todo;
